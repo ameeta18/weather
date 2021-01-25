@@ -1,0 +1,45 @@
+.form-inline
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(0,0,0,0.6);
+    max-width: 550px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-control 
+{
+width: 85%;
+padding: 15px 20px;
+border-radius: 5px;
+font-weight: bold;
+}
+.btn
+{
+    cursor: pointer;
+}
+#message-1
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    background-color: seashell;
+}
+#message-2
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    text-align: center;
+    padding: 3px;
+    border-radius: 2px;
+    background-color: wheat;
+}
